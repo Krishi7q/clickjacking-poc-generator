@@ -29,19 +29,19 @@ jobs:
     
     - name: Test script help
       run: |
-        python clickjacking_poc_generator.py --help
+        clickjacking-poc --help
     
     - name: Test with example URL
       run: |
-        python clickjacking_poc_generator.py -u https://httpbin.org/forms/post --verbose
+        clickjacking-poc -u https://httpbin.org/forms/post --verbose
     
     - name: Test batch processing
       run: |
-        python clickjacking_poc_generator.py -f example_urls.txt --verbose
+        clickjacking-poc -f example_urls.txt --verbose
     
     - name: Test debug mode
       run: |
-        python clickjacking_poc_generator.py -u https://example.com --debug
+        clickjacking-poc -u https://example.com --debug
 
   security:
     runs-on: ubuntu-latest

@@ -1,6 +1,6 @@
 # 🔒 Clickjacking PoC Generator
 
-[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://python.org)
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Security](https://img.shields.io/badge/security-tool-red.svg)](https://github.com/yourusername/clickjacking-poc-generator)
 
@@ -18,8 +18,10 @@ An automated tool to generate HTML Proof of Concept files for clickjacking vulne
 
 ## 📋 Requirements
 
-- Python 3.7 or higher
+- Python 3.8 or higher (recommended: Python 3.11+)
 - Rich library for enhanced CLI experience
+
+> **Note**: Python 3.7 is no longer supported as it has reached end-of-life. Python 3.8+ is required for optimal compatibility with modern systems and security updates.
 
 ## 🛠️ Installation
 
