@@ -132,6 +132,9 @@ dmypy.json
 pocs/
 *.html
 
+# Initialization scripts (one-time use)
+init_repo.sh
+
 # IDE
 .vscode/
 .idea/
