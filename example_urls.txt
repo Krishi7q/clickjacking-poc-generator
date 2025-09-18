@@ -1,0 +1,3 @@
+https://httpbin.org/forms/post
+https://example.com
+https://httpbin.org/html
