@@ -244,10 +244,6 @@ class ClickjackingPoCGenerator:
                 <td>Clickjacking (UI Redressing)</td>
             </tr>
             <tr>
-                <th>Risk Level</th>
-                <td>Medium to High</td>
-            </tr>
-            <tr>
                 <th>Generated</th>
                 <td id="timestamp"></td>
             </tr>
