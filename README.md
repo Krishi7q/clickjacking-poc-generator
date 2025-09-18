@@ -314,7 +314,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/clickjacking-poc-generator/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/clickjacking-poc-generator/discussions)
-- **Security**: For security issues, please email security@example.com
+- **Security**: For security issues, please email yeray.martin@adscanpro.com
 
 ## 🔄 Changelog
 
