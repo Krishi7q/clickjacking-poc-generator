@@ -57,7 +57,8 @@ Repository = "https://github.com/yourusername/clickjacking-poc-generator"
 Changelog = "https://github.com/yourusername/clickjacking-poc-generator/blob/main/CHANGELOG.md"
 
 [project.scripts]
-clickjacking-poc = "clickjacking_poc_generator:main"
+clickjacking-poc = "clickjacking_poc_generator.cli:main"
+clickjacking-poc-generator = "clickjacking_poc_generator.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]

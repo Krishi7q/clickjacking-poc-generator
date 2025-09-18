@@ -23,11 +23,55 @@ An automated tool to generate HTML Proof of Concept files for clickjacking vulne
 
 ## 🛠️ Installation
 
-### Option 1: Direct Installation
+### 🎯 **Recommended: Using pipx (Isolated Environment)**
+
+```bash
+# Install pipx if you don't have it
+python -m pip install --user pipx
+python -m pipx ensurepath
+
+# Install directly from GitHub
+pipx install git+https://github.com/ADScanPro/clickjacking-poc-generator.git
+
+# Or install from local directory
+pipx install .
+```
+
+**Benefits of pipx:**
+- ✅ Isolated virtual environment
+- ✅ No dependency conflicts
+- ✅ Easy updates and uninstalls
+- ✅ Global command availability
+
+### 🚀 Quick Start with pipx
+
+```bash
+# One-liner installation and usage
+pipx install git+https://github.com/ADScanPro/clickjacking-poc-generator.git
+clickjacking-poc -u https://example.com --verbose
+```
+
+### 🔄 Managing pipx Installation
+
+```bash
+# Update to latest version
+pipx upgrade clickjacking-poc-generator
+
+# Uninstall
+pipx uninstall clickjacking-poc-generator
+
+# List installed packages
+pipx list
+
+# Reinstall
+pipx reinstall clickjacking-poc-generator
+```
+
+### Alternative: Direct Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/clickjacking-poc-generator.git
+git clone https://github.com/ADScanPro/clickjacking-poc-generator.git
 cd clickjacking-poc-generator
 
 # Install dependencies
@@ -37,7 +81,7 @@ pip install -r requirements.txt
 chmod +x clickjacking_poc_generator.py
 ```
 
-### Option 2: Using pip (after publishing)
+### Alternative: Using pip (after publishing)
 
 ```bash
 pip install clickjacking-poc-generator
@@ -49,29 +93,36 @@ pip install clickjacking-poc-generator
 
 ```bash
 # Generate PoC for a single URL
-python clickjacking_poc_generator.py -u https://example.com
+clickjacking-poc -u https://example.com
+# or
+clickjacking-poc-generator -u https://example.com
 
 # Generate PoC with custom output filename
-python clickjacking_poc_generator.py -u https://example.com -o my_poc.html
+clickjacking-poc -u https://example.com -o my_poc.html
 
 # Process multiple URLs from a file
-python clickjacking_poc_generator.py -f urls.txt
+clickjacking-poc -f urls.txt
 
 # Process URLs with custom output directory
-python clickjacking_poc_generator.py -f urls.txt -d output_pocs
+clickjacking-poc -f urls.txt -d output_pocs
+```
+
+**Note:** If installed with pipx, you can use the command directly. If installed manually, use:
+```bash
+python clickjacking_poc_generator.py -u https://example.com
 ```
 
 ### Advanced Usage
 
 ```bash
 # Enable verbose output
-python clickjacking_poc_generator.py -u https://example.com --verbose
+clickjacking-poc -u https://example.com --verbose
 
 # Enable debug mode
-python clickjacking_poc_generator.py -u https://example.com --debug
+clickjacking-poc -u https://example.com --debug
 
 # Combine verbose and debug
-python clickjacking_poc_generator.py -f urls.txt --verbose --debug
+clickjacking-poc -f urls.txt --verbose --debug
 ```
 
 ### Command Line Options
@@ -160,6 +211,10 @@ The project follows Python best practices:
 ### Example 1: Single URL PoC
 
 ```bash
+# With pipx installation
+clickjacking-poc -u https://vulnerable-site.com/login
+
+# With manual installation
 python clickjacking_poc_generator.py -u https://vulnerable-site.com/login
 ```
 
@@ -172,7 +227,10 @@ python clickjacking_poc_generator.py -u https://vulnerable-site.com/login
 echo "https://site1.com" > urls.txt
 echo "https://site2.com" >> urls.txt
 
-# Generate PoCs
+# Generate PoCs (with pipx)
+clickjacking-poc -f urls.txt -d my_pocs
+
+# Or with manual installation
 python clickjacking_poc_generator.py -f urls.txt -d my_pocs
 ```
 
@@ -181,6 +239,10 @@ python clickjacking_poc_generator.py -f urls.txt -d my_pocs
 ### Example 3: Debug Mode
 
 ```bash
+# With pipx
+clickjacking-poc -u https://example.com --debug --verbose
+
+# With manual installation
 python clickjacking_poc_generator.py -u https://example.com --debug --verbose
 ```
 
